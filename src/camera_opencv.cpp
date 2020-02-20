@@ -83,7 +83,7 @@ static void process_image(const void *p, int size)
     memcpy(yuv422frame, p, SIZE);
     
     cv::Mat cvmat(HEIGHT, WIDTH, CV_8UC1);
-    cv::Mat(HEIGHT, WIDTH, CV_16UC1, (void *)yuv422frame).convertTo(cvmat, CV_8UC1, 1.0 / 4);
+    cv::Mat(HEIGHT, WIDTH, CV_16UC1, (void *)yuv422frame).convertTo(cvmat, CV_8UC1, 1.0 / 256);
 
 
     cv::imshow("Capture", cvmat);
@@ -154,7 +154,7 @@ static void mainloop(void)
             FD_SET(fd, &fds);
 
             /* Timeout. */
-            tv.tv_sec = 2;
+            tv.tv_sec = 3;
             tv.tv_usec = 0;
 
             r = select(fd + 1, &fds, NULL, NULL, &tv);
@@ -399,7 +399,7 @@ static void open_device(void)
 
 int main(int argc, char **argv)
 {
-    dev_name = "/dev/video0";
+    dev_name = "/dev/video1";
 
     open_device();
     init_device();

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/camera_opencv.dir/src/test.cpp.o"
+  "CMakeFiles/camera_opencv.dir/src/camera_opencv.cpp.o"
   "camera_opencv.pdb"
   "camera_opencv"
 )

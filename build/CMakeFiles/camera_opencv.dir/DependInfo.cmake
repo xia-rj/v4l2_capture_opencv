@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/fanxia/linux_data/Jetson_Xavier/Xavier_dev/zhkj-camera/camera_opencv/src/test.cpp" "/media/fanxia/linux_data/Jetson_Xavier/Xavier_dev/zhkj-camera/camera_opencv/build/CMakeFiles/camera_opencv.dir/src/test.cpp.o"
+  "/home/zhkj-robot/Documents/v4l2_capture_opencv/src/camera_opencv.cpp" "/home/zhkj-robot/Documents/v4l2_capture_opencv/build/CMakeFiles/camera_opencv.dir/src/camera_opencv.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -12,8 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "../"
-  "/opt/ros/kinetic/include/opencv-3.3.1-dev"
-  "/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"
+  "/usr/include/opencv"
   )
 
 # Targets to which this target links.

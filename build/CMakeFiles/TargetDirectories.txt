@@ -1,3 +1,3 @@
-/media/fanxia/linux_data/Jetson_Xavier/Xavier_dev/zhkj-camera/camera_opencv/build/CMakeFiles/edit_cache.dir
-/media/fanxia/linux_data/Jetson_Xavier/Xavier_dev/zhkj-camera/camera_opencv/build/CMakeFiles/rebuild_cache.dir
-/media/fanxia/linux_data/Jetson_Xavier/Xavier_dev/zhkj-camera/camera_opencv/build/CMakeFiles/camera_opencv.dir
+/home/zhkj-robot/Documents/v4l2_capture_opencv/build/CMakeFiles/rebuild_cache.dir
+/home/zhkj-robot/Documents/v4l2_capture_opencv/build/CMakeFiles/camera_opencv.dir
+/home/zhkj-robot/Documents/v4l2_capture_opencv/build/CMakeFiles/edit_cache.dir
