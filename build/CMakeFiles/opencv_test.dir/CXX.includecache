@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhkj-robot/Documents/v4l2_capture_opencv/src/opencv_test.cpp
+opencv2/opencv.hpp
+-
+iostream
+-
+

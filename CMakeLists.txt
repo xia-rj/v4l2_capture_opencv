@@ -12,8 +12,12 @@ include_directories( ${OpenCV_INCLUDE_DIRS} )
 # include_directories(include ${EIGEN3_INCLUDE_DIR} ${YAML_CPP_INCLUDE_DIR})
 
 add_executable(camera_opencv src/camera_opencv.cpp)
+add_executable(camera_test src/test.cpp)
+add_executable(opencv_test src/opencv_test.cpp)
 # add_executable(camera_opencv src/test.cpp)
 # add_executable(camera_opencv src/camera_opencv.c)
 
 # target_link_libraries(camera_opencv ${OpenCV_LIBS})
 target_link_libraries(camera_opencv ${OpenCV_LIBS})
+target_link_libraries(camera_test ${OpenCV_LIBS})
+target_link_libraries(opencv_test ${OpenCV_LIBS})

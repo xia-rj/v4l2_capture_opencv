@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/zhkj-robot/Documents/v4l2_capture_opencv/build",
+  "command": "/usr/bin/g++-7   -I/home/zhkj-robot/Documents/v4l2_capture_opencv/build -I/home/zhkj-robot/Documents/v4l2_capture_opencv -isystem /usr/include/opencv  -g   -std=gnu++11 -o CMakeFiles/opencv_test.dir/src/opencv_test.cpp.o -c /home/zhkj-robot/Documents/v4l2_capture_opencv/src/opencv_test.cpp",
+  "file": "/home/zhkj-robot/Documents/v4l2_capture_opencv/src/opencv_test.cpp"
+},
+{
+  "directory": "/home/zhkj-robot/Documents/v4l2_capture_opencv/build",
+  "command": "/usr/bin/g++-7   -I/home/zhkj-robot/Documents/v4l2_capture_opencv/build -I/home/zhkj-robot/Documents/v4l2_capture_opencv -isystem /usr/include/opencv  -g   -std=gnu++11 -o CMakeFiles/camera_opencv.dir/src/camera_opencv.cpp.o -c /home/zhkj-robot/Documents/v4l2_capture_opencv/src/camera_opencv.cpp",
+  "file": "/home/zhkj-robot/Documents/v4l2_capture_opencv/src/camera_opencv.cpp"
+},
+{
+  "directory": "/home/zhkj-robot/Documents/v4l2_capture_opencv/build",
+  "command": "/usr/bin/g++-7   -I/home/zhkj-robot/Documents/v4l2_capture_opencv/build -I/home/zhkj-robot/Documents/v4l2_capture_opencv -isystem /usr/include/opencv  -g   -std=gnu++11 -o CMakeFiles/camera_test.dir/src/test.cpp.o -c /home/zhkj-robot/Documents/v4l2_capture_opencv/src/test.cpp",
+  "file": "/home/zhkj-robot/Documents/v4l2_capture_opencv/src/test.cpp"
+}
+]

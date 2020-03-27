@@ -1,3 +1,5 @@
 /home/zhkj-robot/Documents/v4l2_capture_opencv/build/CMakeFiles/rebuild_cache.dir
-/home/zhkj-robot/Documents/v4l2_capture_opencv/build/CMakeFiles/camera_opencv.dir
+/home/zhkj-robot/Documents/v4l2_capture_opencv/build/CMakeFiles/opencv_test.dir
 /home/zhkj-robot/Documents/v4l2_capture_opencv/build/CMakeFiles/edit_cache.dir
+/home/zhkj-robot/Documents/v4l2_capture_opencv/build/CMakeFiles/camera_opencv.dir
+/home/zhkj-robot/Documents/v4l2_capture_opencv/build/CMakeFiles/camera_test.dir

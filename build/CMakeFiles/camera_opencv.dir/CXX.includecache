@@ -13,6 +13,24 @@ stdlib.h
 -
 string.h
 -
+iostream
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc.hpp
+-
+camera_zhkj.hpp
+/home/zhkj-robot/Documents/v4l2_capture_opencv/src/camera_zhkj.hpp
+
+/home/zhkj-robot/Documents/v4l2_capture_opencv/src/camera_zhkj.hpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
 assert.h
 -
 getopt.h
@@ -34,9 +52,5 @@ sys/mman.h
 sys/ioctl.h
 -
 linux/videodev2.h
--
-opencv2/core/core.hpp
--
-opencv2/highgui/highgui.hpp
 -
 

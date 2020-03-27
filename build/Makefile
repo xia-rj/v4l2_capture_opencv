@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named opencv_test
+
+# Build rule for target.
+opencv_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 opencv_test
+.PHONY : opencv_test
+
+# fast build rule for target.
+opencv_test/fast:
+	$(MAKE) -f CMakeFiles/opencv_test.dir/build.make CMakeFiles/opencv_test.dir/build
+.PHONY : opencv_test/fast
+
+#=============================================================================
 # Target rules for targets named camera_opencv
 
 # Build rule for target.
@@ -122,6 +135,19 @@ camera_opencv: cmake_check_build_system
 camera_opencv/fast:
 	$(MAKE) -f CMakeFiles/camera_opencv.dir/build.make CMakeFiles/camera_opencv.dir/build
 .PHONY : camera_opencv/fast
+
+#=============================================================================
+# Target rules for targets named camera_test
+
+# Build rule for target.
+camera_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 camera_test
+.PHONY : camera_test
+
+# fast build rule for target.
+camera_test/fast:
+	$(MAKE) -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/build
+.PHONY : camera_test/fast
 
 src/camera_opencv.o: src/camera_opencv.cpp.o
 
@@ -150,6 +176,60 @@ src/camera_opencv.cpp.s:
 	$(MAKE) -f CMakeFiles/camera_opencv.dir/build.make CMakeFiles/camera_opencv.dir/src/camera_opencv.cpp.s
 .PHONY : src/camera_opencv.cpp.s
 
+src/opencv_test.o: src/opencv_test.cpp.o
+
+.PHONY : src/opencv_test.o
+
+# target to build an object file
+src/opencv_test.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv_test.dir/build.make CMakeFiles/opencv_test.dir/src/opencv_test.cpp.o
+.PHONY : src/opencv_test.cpp.o
+
+src/opencv_test.i: src/opencv_test.cpp.i
+
+.PHONY : src/opencv_test.i
+
+# target to preprocess a source file
+src/opencv_test.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv_test.dir/build.make CMakeFiles/opencv_test.dir/src/opencv_test.cpp.i
+.PHONY : src/opencv_test.cpp.i
+
+src/opencv_test.s: src/opencv_test.cpp.s
+
+.PHONY : src/opencv_test.s
+
+# target to generate assembly for a file
+src/opencv_test.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv_test.dir/build.make CMakeFiles/opencv_test.dir/src/opencv_test.cpp.s
+.PHONY : src/opencv_test.cpp.s
+
+src/test.o: src/test.cpp.o
+
+.PHONY : src/test.o
+
+# target to build an object file
+src/test.cpp.o:
+	$(MAKE) -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/src/test.cpp.o
+.PHONY : src/test.cpp.o
+
+src/test.i: src/test.cpp.i
+
+.PHONY : src/test.i
+
+# target to preprocess a source file
+src/test.cpp.i:
+	$(MAKE) -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/src/test.cpp.i
+.PHONY : src/test.cpp.i
+
+src/test.s: src/test.cpp.s
+
+.PHONY : src/test.s
+
+# target to generate assembly for a file
+src/test.cpp.s:
+	$(MAKE) -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/src/test.cpp.s
+.PHONY : src/test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -157,11 +237,19 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... camera_opencv"
+	@echo "... opencv_test"
 	@echo "... edit_cache"
+	@echo "... camera_opencv"
+	@echo "... camera_test"
 	@echo "... src/camera_opencv.o"
 	@echo "... src/camera_opencv.i"
 	@echo "... src/camera_opencv.s"
+	@echo "... src/opencv_test.o"
+	@echo "... src/opencv_test.i"
+	@echo "... src/opencv_test.s"
+	@echo "... src/test.o"
+	@echo "... src/test.i"
+	@echo "... src/test.s"
 .PHONY : help
 
 

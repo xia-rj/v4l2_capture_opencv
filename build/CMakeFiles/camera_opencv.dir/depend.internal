@@ -3,3 +3,4 @@
 
 CMakeFiles/camera_opencv.dir/src/camera_opencv.cpp.o
  /home/zhkj-robot/Documents/v4l2_capture_opencv/src/camera_opencv.cpp
+ /home/zhkj-robot/Documents/v4l2_capture_opencv/src/camera_zhkj.hpp
